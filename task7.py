@@ -1,7 +1,5 @@
 import numpy as np
 
-print("TASK 7: Handling Missing Values")
-
 values = np.array([14.0, np.nan, 27.0, 35.0, np.nan, 20.0])
 nan_mask = np.isnan(values)
 
