@@ -1,7 +1,5 @@
 import numpy as np
 
-print("TASK 4: Sensor Readings")
-
 rng = np.random.default_rng(14)
 readings = rng.normal(25, 5, size=(4, 8))
 threshold = 30
