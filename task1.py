@@ -1,7 +1,5 @@
 import numpy as np
 
-print("TASK 1: Student Marks")
-
 rng = np.random.default_rng(11)
 marks = rng.integers(10, 101, size=(10, 5))
 print("Marks (rows are students, columns are subjects):\n", marks)
