@@ -1,7 +1,5 @@
 import numpy as np
 
-print("TASK 3: Grayscale Image")
-
 rng = np.random.default_rng(13)
 image = rng.integers(0, 256, size=(6, 6))
 threshold = 128
