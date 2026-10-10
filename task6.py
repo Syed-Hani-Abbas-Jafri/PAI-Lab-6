@@ -1,7 +1,5 @@
 import numpy as np
 
-print("TASK 6: Random Measurements")
-
 for seed in (21, 32):
     rng = np.random.default_rng(seed)
     measurements = rng.normal(loc=100, scale=15, size=1000)
