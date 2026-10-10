@@ -1,7 +1,5 @@
 import numpy as np
 
-print("TASK 5: Matrix Operations")
-
 A = np.array([[2, 1, 3],
               [0, 4, 2],
               [1, 5, 2]])
